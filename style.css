@@ -283,7 +283,8 @@ top: 1563px;
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 
 }
 .foot-des{
@@ -326,4 +327,46 @@ top: 1563px;
     width: 180px;
     height: 64px;
 }
+/* responsive styles */
 
+@media screen and (max-width:576px) {
+    .third-section {
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 0px;
+        text-align: center;
+        align-items: center;
+    }
+    .fourth-section{
+        margin-left: 0px;
+        text-align: center;
+        align-items: center;
+
+    }
+    .fourth-title{
+        text-align: center;
+    }
+    .fourth-des{
+        text-align: center;
+    }
+    .fourth-skills-container {
+        width: 100%;
+        gap: 0px;
+        margin-top: 80px;
+        margin-left: 0px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    
+}
+,fifth-section{
+   justify-items:center;
+}
+.fifth-skills-container{
+    flex-direction: column;
+}
+@media screen and ( min-width: 577px) and (max-width: 992px) {
+    
+}
