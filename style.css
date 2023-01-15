@@ -231,7 +231,14 @@ top: 1563px;
     margin-right: 130px;
     margin-bottom: 20px;
     text-align: center;
+    transition: 1s;
     
+}
+.fskill:hover{
+    transform: scale(1.1,1.3);
+    background: #FFF4E7;
+    box-shadow: 2px 2px 2px #FF900E;
+    z-index: 2;
 }
 .fourth-title{
     font-weight: 700;
@@ -242,7 +249,7 @@ top: 1563px;
     text-align: center;
     width: 1400px;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-left: 250px;
     margin-right: 250px;
     column-gap: 15px;
@@ -250,8 +257,9 @@ top: 1563px;
 .fifth-skills-container{
     display: flex;
     gap: 2px;
-    margin-top: 80px;;
+    margin-top: 80px;
     justify-content: space-between;
+    filter: grayscale(100%);
    
 }  
 .fiskill{
@@ -266,7 +274,6 @@ top: 1563px;
     font-size: 50px;
     margin-bottom: 20px;
 }
-
 .footer{
     width: 1400px;
     background-color: #FFF4E7;
@@ -282,3 +289,41 @@ top: 1563px;
 .foot-des{
     padding-top: 35px;
 }
+.six-section{
+    background: linear-gradient(to right, rgba(236, 118, 7, 0.6), rgba(235, 152, 85, 0.1)), url(./images/arts/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 55px 30px;
+    border-radius: 10px
+    
+}
+.six-title{
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.six-des{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.six-btn{
+    
+    color: #FFF8F3;
+    background-color:#ff8f0e42;
+    border-color:#FFF8F3 ;
+    text-align: center;
+    margin: auto;
+    height: 64px;
+    width: 180px;
+    left: 870px;
+    top: 435px;
+    border-radius:8px;
+    width: 180px;
+    height: 64px;
+}
+
